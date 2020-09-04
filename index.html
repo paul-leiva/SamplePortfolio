@@ -1,0 +1,146 @@
+<DOCTYPE html>
+<html> <!--  This is a comment -->
+	<head> <!-- Anything here will not be seen in the body -->
+		<title>My Portfolio</title> <!-- Tab Title -->
+		<script src="https://kit.fontawesome.com/ee8942593a.js" crossorigin="anonymous"></script>
+	</head>
+	<body> <!-- Everything in the body will be seen on the webpage -->
+		<header class="Header"> <!-- adding a class allows you to style -->
+			<nav class="Header__navbar">
+				<div class="Header__navigation">
+					<ul class="Header__navContent">
+						<li class="Header__navItem">
+							<a href="#home" class="Header__navLink">Home</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<section class="Header__content">
+				<h1>I'm Paul</h1>
+				<p>A <span class="Header__highlight"><em>Full Stack Developer</em></span></p>
+			</section>
+			<!-- type to add both a class and ID 'section.classStuff#IDstuff' -->
+		</header>
+		<main class="Main">
+			<section class="Main__about" id="about">
+				<div class="Main__aboutContent">
+					<h4 class="About__title">About</h4>
+					<h2 class="about__subTitle">My name is Paul Leiva</h2>
+					<div class="About__imgContainer">
+						<img class="About__img" src="./assets/PFL.jpg" alt="Profile Picture" width="390px">
+					</div>
+					<div class="About__bioContent">
+						<p class="About__bio">
+							MVP scrum project non-disclosure agreement incubator entrepreneur user experience virality. Early adopters prototype branding low hanging fruit startup ownership growth hacking responsive web design creative series A financing partnership. First mover advantage vesting period long tail handshake rockstar startup. Backing user experience low hanging fruit incubator entrepreneur prototype crowdsource facebook iPhone paradigm shift startup marketing leverage. Focus rockstar funding. Startup research & development conversion business-to-consumer crowdfunding. Incubator accelerator series A financing branding ecosystem bootstrapping sales business-to-business iPad bandwidth. Stock monetization A/B testing validation agile development virality. Technology virality bandwidth responsive web design non-disclosure agreement hypotheses network effects. Client validation termsheet crowdfunding partnership deployment strategy infrastructure backing supply chain ramen business plan success.
+						</p>
+						<p class="About__bio">
+							Another short paragraph.
+						</p>
+						<button class="btn About__btn">Download Resume</button>
+					</div>
+				</div>
+			</section>
+			<section class="Main__work" id="work">
+				<h4 class="Work__title">Work</h4>
+				<h2 class="Work_subTitle">Latest Projects</h2>
+				<div class="Main__project">
+					<div class="Work__projectImgContainer">
+						<img src="https://picsum.photos/200/300" alt="random image" class="Work__projectImg">
+					</div>
+					<div class="Main__projectContent"></div>
+				</div>
+				<div class="Main__project">
+					<div class="Work__projectImgContainer">
+						<img src="https://picsum.photos/200/300" alt="random image" class="Work__projectImg">
+					</div>
+					<div class="Main__projectContent">
+						<h3 class="Work_projectTitle">Project Title</h3>
+						<p class="ProjectInfo">
+							Incubator sales graphical user interface mass market
+						</p>
+					</div>
+				</div>
+				<div class="Main__project">
+					<div class="Work__projectImgContainer">
+						<img src="https://picsum.photos/200/300" alt="random image" class="Work__projectImg">
+					</div>
+					<div class="Main__projectContent">
+						<h3 class="Work_projectTitle">Project Title</h3>
+						<p class="ProjectInfo">
+							Incubator sales graphical user interface mass market
+						</p>
+					</div>
+				</div>
+				<div class="Main__project">
+					<div class="Work__projectImgContainer">
+						<img src="https://picsum.photos/200/300" alt="random image" class="Work__projectImg">
+					</div>
+					<div class="Main__projectContent">
+						<h3 class="Work_projectTitle">Project Title</h3>
+						<p class="ProjectInfo">
+							Incubator sales graphical user interface mass market
+						</p>
+					</div>
+				</div>
+				<div class="Main__project">
+					<div class="Work__projectImgContainer">
+						<img src="https://picsum.photos/200/300" alt="random image" class="Work__projectImg">
+					</div>
+					<div class="Main__projectContent">
+						<h3 class="Work_projectTitle">Project Title</h3>
+						<p class="ProjectInfo">
+							Incubator sales graphical user interface mass market
+						</p>
+					</div>
+				</div>
+				<div class="Main__project">
+					<div class="Work__projectImgContainer">
+						<img src="https://picsum.photos/200/300" alt="random image" class="Work__projectImg">
+					</div>
+					<div class="Main__projectContent">
+						<h3 class="Work_projectTitle">Project Title</h3>
+						<p class="ProjectInfo">
+							Incubator sales graphical user interface mass market
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="Main__contact" id="contact"> <!-- form section -->
+				<!-- 'id' s allow you to link to content on the page-->
+				<h4 class="Contact__title">Contact</h4>
+				<h2 class="Contact__subTitle">Get In Touch</h2>
+				<div class="Contact__formContainer">
+					<form action="" method="POST" class="Contact__form">
+						<div class="Contact__inputs">
+							<div class="Contact__formField">
+								<label for="name" class="Contact__label">Name:</label>
+								<input type="text" name="name" class="Contact__input" id="name" required>
+							</div>
+							<div class="Contact__formField">
+								<label for="email" class="Contact__label">Email:</label>
+								<input type="text" name="email" class="Contact__input" id="email" required>
+							</div>
+							<div class="Contact__formField">
+								<label for="phone" class="Contact__label">Phone Number:</label>
+								<input type="text" name="phone" class="Contact__input" id="phone" required>
+							</div>
+						</div>
+						<div class="Contact__MessageField">
+							<label for="message" class="Contact__label">Message:</label>
+							<textarea name="message" id="message" class="Contact__message"></textarea>
+						</div>
+						<button type="submit" class="btn Contact__btn">Submit</button>
+					</form>
+				</div>
+
+			</section>
+		</main>
+		<footer class="Footer">
+			<section class="Footer__content">
+				<p class="Footer__copyright">&copy; 2020 Developed by Paul Leiva</p>
+				<ul class="Footer__socialList">
+					<li class="Footer__socialItem"><a href="http://github.com" class="Footer__socialLinke" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+				</ul>
+		</footer>
+	</body>
+</html>
