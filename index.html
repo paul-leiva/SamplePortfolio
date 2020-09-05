@@ -1,10 +1,12 @@
 <DOCTYPE html>
 <html> <!--  This is a comment -->
 	<head> <!-- Anything here will not be seen in the body -->
+		<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
 		<title>My Portfolio</title> <!-- Tab Title -->
+		<link rel="stylesheet" href="./styles/main.css">
 		<script src="https://kit.fontawesome.com/ee8942593a.js" crossorigin="anonymous"></script>
 	</head>
-	<body> <!-- Everything in the body will be seen on the webpage -->
+	<body id="home"> <!-- Everything in the body will be seen on the webpage -->
 		<header class="Header"> <!-- adding a class allows you to style -->
 			<nav class="Header__navbar">
 				<div class="Header__navigation">
@@ -16,8 +18,8 @@
 				</div>
 			</nav>
 			<section class="Header__content">
-				<h1>I'm Paul</h1>
-				<p>A <span class="Header__highlight"><em>Full Stack Developer</em></span></p>
+				<h1 class="Header__title">I'm Paul</h1>
+				<p class="Header__subtitle">A <span class="Header__highlight"><em>Full Stack Developer</em></span></p>
 			</section>
 			<!-- type to add both a class and ID 'section.classStuff#IDstuff' -->
 		</header>
